@@ -1,5 +1,5 @@
 // Define a class
-class Person {
+public class Person {
     // Define Instance Variables
     // different for each object!
     String name;

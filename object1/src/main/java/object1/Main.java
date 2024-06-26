@@ -9,7 +9,7 @@ public class Main {
         logger.info("This is a module-using Hello World!");
 
 
-        Person josh = new Person("josh",16,160);
+        System.out.println();
 
     }
 }
