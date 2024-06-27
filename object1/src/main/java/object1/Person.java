@@ -2,9 +2,9 @@
 public class Person {
     // Define Instance Variables
     // different for each object!
-    String name;
-    int age = 0;
-    int height = 0;
+    private String name;
+    private int age = 0;
+    private int height = 0;
 
     // Constructor
     public Person(String name, int age, int height) {
@@ -13,12 +13,20 @@ public class Person {
         this.height = height;
     }
 
-    public static void main(String[] args) {
-        // Declare and initialize an object
-        Person joshua = new Person("joshua", 25, 160);
-        System.out.print(joshua.height);
+        public String getName(){
+            return name;
+        }
+        public void setName(String name){
+            this.name = name;
+        }
 
-        /* Now you can use the Object  */
 
+        public int getHeight(){
+            return height;
+        }
+        public void setHeight(int height){
+            this.height = height;
+        }
     }
-}
+
+
